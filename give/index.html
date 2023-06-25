@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Give Info NOW</title>
+</head>
+<body>
+    <p>Card Number</p>
+    <input type="number" id="cardnumber" name="Card Number" placeholder="Card Number">
+    <p>Expiry Date</p>
+    <input type="text" name="date" id="date" maxlength="5" placeholder="Date">
+    <p>The 3 silly numbers on the back</p>
+    <input type="number" name="cvv" id="cvv" maxlength="3" placeholder="CVV">
+    <br>
+    <br>
+    <button id="submit" onclick="document.getElementById('ty').innerHTML = 'Thank you for your money!!! we will be making a small charge of $100,000 to this card. If you have any questions call (248) 434-5508'">Submit</button>
+    <p id="ty"></p>
+</body>
+</html>
